@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(135deg, #0f766e, #14b8a6);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.login-box{
+    width: 380px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.15) !important;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    animation: fadeIn 1s ease;
+}
+
+.login-box h2{
+    font-weight: bold;
+}
+
+.form-control{
+    border-radius: 10px !important;
+}
+
+.input-group-text{
+    cursor: pointer;
+    background: white;
+}
+
+button{
+    border-radius: 10px !important;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+a{
+    text-decoration: none;
+    color: #facc15;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform: translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+
+.btn:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.login-box{
+    width: 100%;
+    max-width: 380px;
+}
+
+body{
+    animation: fadeBody 1s ease;
+}
+
+@keyframes fadeBody{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
